@@ -1,0 +1,18 @@
+{
+  "id": "Notex.DevBricks",
+  "name": "DevBricks",
+  "description": "Development Bricks for maps",
+  "authors": ["Notex"],
+  "contentFolder": "content",
+  "packagedefinition": [
+    {
+      "type": "entity",
+      "partition": "ancestral",
+      "path": "[assembly:/_pro/scenes/missions/ancestral/dev_bulldog.brick].entitytype"
+    }
+  ],
+  "dependencies": ["007D2E061E2FCF3B"],
+  "version": "1.0.0",
+  "updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
+  "frameworkVersion": "1.0.0"
+}

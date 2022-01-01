@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Make release
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          mkdir DevBricks
+          cp manifest.json DevBricks/
+          cp -R content DevBricks/content
+          zip -r DevBricks.framework.zip DevBricks
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            DevBricks.framework.zip

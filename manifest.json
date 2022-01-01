@@ -13,6 +13,6 @@
   ],
   "dependencies": ["007D2E061E2FCF3B"],
   "version": "1.0.0",
-  "updateCheck": "https://framework.notex.app/updates/HM3CustomMaps.json",
+  "updateCheck": "https://framework.notex.app/updates/DevBricks.json",
   "frameworkVersion": "1.0.0"
 }

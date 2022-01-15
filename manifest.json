@@ -17,7 +17,7 @@
     }
   ],
   "dependencies": ["007D2E061E2FCF3B", "00894F16BA00D5ED"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updateCheck": "https://framework.notex.app/updates/DevBricks.json",
   "frameworkVersion": "1.0.0"
 }

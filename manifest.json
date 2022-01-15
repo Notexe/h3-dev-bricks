@@ -7,11 +7,16 @@
   "packagedefinition": [
     {
       "type": "entity",
+      "partition": "super",
+      "path": "[assembly:/_pro/scenes/missions/golden/mission_gecko/dev_gecko.brick].entitytype"
+    },
+    {
+      "type": "entity",
       "partition": "ancestral",
       "path": "[assembly:/_pro/scenes/missions/ancestral/dev_bulldog.brick].entitytype"
     }
   ],
-  "dependencies": ["007D2E061E2FCF3B"],
+  "dependencies": ["007D2E061E2FCF3B", "00894F16BA00D5ED"],
   "version": "1.0.0",
   "updateCheck": "https://framework.notex.app/updates/DevBricks.json",
   "frameworkVersion": "1.0.0"

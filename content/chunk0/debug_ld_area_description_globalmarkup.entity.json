@@ -1,0 +1,335 @@
+{
+	"tempHash": "002271F7ADFCDA44",
+	"tbluHash": "00BDBCC01CB4C9A7",
+	"rootEntity": "241611f1eeff7a5d",
+	"entities": {
+		"bffcf855295b41b4": {
+			"parent": "241611f1eeff7a5d",
+			"name": "TextBox_MainHeadline",
+			"template": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Text": {
+					"type": "ZString",
+					"value": "Area"
+				},
+				"m_vSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 600,
+						"y": 30
+					}
+				},
+				"WrapText": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vPositionOffset": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					}
+				},
+				"FontSize": {
+					"type": "float32",
+					"value": 18
+				},
+				"Font": {
+					"type": "ZString",
+					"value": "$normal"
+				},
+				"TextColor": {
+					"type": "ZString",
+					"value": "aaaaaa"
+				},
+				"m_bIsVisible": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_aChildren": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f8ec832d87f89a37"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d197f06bb9431de4": {
+			"parent": "241611f1eeff7a5d",
+			"name": "VisibilityController_MainObejctives",
+			"template": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_pTargetControl": {
+					"type": "SEntityTemplateReference",
+					"value": "9063219b8809cae1"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f8ec832d87f89a37": {
+			"parent": "241611f1eeff7a5d",
+			"name": "TextBox_MainObjective03",
+			"template": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Text": {
+					"type": "ZString",
+					"value": "Market Square"
+				},
+				"m_vSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 600,
+						"y": 33
+					}
+				},
+				"WrapText": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vPositionOffset": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					}
+				},
+				"FontSize": {
+					"type": "float32",
+					"value": 25
+				},
+				"Font": {
+					"type": "ZString",
+					"value": "$bold"
+				},
+				"TextColor": {
+					"type": "ZString",
+					"value": "ffffff"
+				},
+				"m_bIsVisible": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"9063219b8809cae1": {
+			"parent": "241611f1eeff7a5d",
+			"name": "MainObejctivesContainer",
+			"template": "[assembly:/templates/ui/controls/basiccontrols.template?/container.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/container.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aChildren": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["bffcf855295b41b4"]
+				},
+				"m_eAlignmentType": {
+					"type": "ZUIControlLayoutLegacyAspect.EAlignmentType",
+					"value": "E_ALIGNMENT_TYPE_TopCenter"
+				},
+				"m_vSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 220,
+						"y": 82
+					}
+				},
+				"m_bIsVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vPositionOffset": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"995480ed235cc860": {
+			"parent": "241611f1eeff7a5d",
+			"name": "ControlTree",
+			"template": "[modules:/zuicontroltreeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zuicontroltreeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pRootControlEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "9063219b8809cae1"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fe0c91cd432bd9d8": {
+			"parent": "241611f1eeff7a5d",
+			"name": "IsEnabled",
+			"template": "[modules:/zhm5valueentity_bool.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5valueentity_bool.class].pc_entityblueprint",
+			"properties": {
+				"m_Value": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e9db8582e8abc505": {
+			"parent": "241611f1eeff7a5d",
+			"name": "IsTextVisible",
+			"template": "[modules:/zhm5valueentity_bool.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5valueentity_bool.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnTrue",
+				"shouldTrigger": "Show",
+				"onEntity": "d197f06bb9431de4"
+			}, {
+				"onEvent": "OnFalse",
+				"shouldTrigger": "Hide",
+				"onEntity": "d197f06bb9431de4"
+			}]
+		},
+		"149599a84e4594d7": {
+			"parent": "241611f1eeff7a5d",
+			"name": "GetConditionValue",
+			"template": "[modules:/zgetconditionvalue.class].pc_entitytype",
+			"blueprint": "[modules:/zgetconditionvalue.class].pc_entityblueprint",
+			"properties": {
+				"m_rCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "e9db8582e8abc505"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnTrue",
+				"shouldTrigger": "SetFalse",
+				"onEntity": "e9db8582e8abc505"
+			}],
+			"outputCopying": [{
+				"onEvent": "OnTrue",
+				"propagateEvent": "OnTrue1",
+				"onEntity": "241611f1eeff7a5d"
+			}]
+		},
+		"1c5d06ee2018c82f": {
+			"parent": "241611f1eeff7a5d",
+			"name": "VolumeTriggerCharacter",
+			"template": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"241611f1eeff7a5d": {
+			"parent": null,
+			"name": "DEBUG_LD_Area_Description_GlobalMarkup",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"Enabled": {
+					"type": "bool",
+					"value": true
+				},
+				"Moment_Description": {
+					"type": "ZString",
+					"value": "Market Square"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "Text",
+				"onEntity": "f8ec832d87f89a37",
+				"asProperty": "Moment_Description"
+			}, {
+				"exposeProperty": "m_Value",
+				"onEntity": "fe0c91cd432bd9d8",
+				"asProperty": "Enabled"
+			}, {
+				"exposeProperty": "m_Boxes",
+				"onEntity": "1c5d06ee2018c82f",
+				"asProperty": "m_Boxes"
+			}],
+			"inputCopying": [{
+				"whenTriggered": "Enable",
+				"alsoTrigger": "SetTrue",
+				"onEntity": "fe0c91cd432bd9d8"
+			}, {
+				"whenTriggered": "Disable",
+				"alsoTrigger": "SetFalse",
+				"onEntity": "fe0c91cd432bd9d8"
+			}]
+		},
+		"5c08f10a2cac2786": {
+			"parent": "241611f1eeff7a5d",
+			"name": "Enabled AND in area",
+			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1c5d06ee2018c82f", "fe0c91cd432bd9d8"]
+				},
+				"m_bFireOnLevelStart": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnTrue",
+				"shouldTrigger": "SetTrue",
+				"onEntity": "e9db8582e8abc505"
+			}, {
+				"onEvent": "OnFalse",
+				"shouldTrigger": "Get",
+				"onEntity": "149599a84e4594d7"
+			}],
+			"outputCopying": [{
+				"onEvent": "OnTrue",
+				"propagateEvent": "OnTrue",
+				"onEntity": "241611f1eeff7a5d"
+			}]
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

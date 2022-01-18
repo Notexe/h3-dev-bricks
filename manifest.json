@@ -14,6 +14,11 @@
       "type": "entity",
       "partition": "ancestral",
       "path": "[assembly:/_pro/scenes/missions/ancestral/dev_bulldog.brick].entitytype"
+    },
+    {
+      "type": "entity",
+      "partition": "elegant",
+      "path": "[assembly:/_pro/scenes/missions/elegant/dev_llama.brick].entitytype"
     }
   ],
   "dependencies": ["007D2E061E2FCF3B", "00894F16BA00D5ED"],

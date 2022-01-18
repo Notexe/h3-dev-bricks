@@ -1503,7 +1503,7 @@
 			"platformSpecificPropertyValues": [],
 			"events": [{
 				"onEvent": "EventOccurred",
-				"shouldTrigger": "SetFalse",
+				"shouldTrigger": "SetTrue",
 				"onEntity": "35de4539d3bf22e1"
 			}]
 		},

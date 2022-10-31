@@ -11,44 +11,29 @@
 			"properties": {
 				"m_vPositionOffset": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": 0
-					}
+					"value": { "x": 0, "y": 0, "z": 0 }
 				},
-				"m_bForwardDataToChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bIsVisible": {
-					"type": "bool",
-					"value": true
-				}
-			},
-			"postInitProperties": {
+				"m_bForwardDataToChildren": { "type": "bool", "value": true },
+				"m_bIsVisible": { "type": "bool", "value": true },
 				"m_aChildren": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["719d625422316c2a", "7b6385cd0de7a7f"]
+					"value": ["719d625422316c2a", "7b6385cd0de7a7f"],
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"c026fe94e491674b": {
 			"parent": "e4c286ef0e41f50e",
 			"name": "ImageBox_VisibilityController",
 			"template": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {
+			"properties": {
 				"m_pTargetControl": {
 					"type": "SEntityTemplateReference",
-					"value": "719d625422316c2a"
+					"value": "719d625422316c2a",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"7b6385cd0de7a7f": {
 			"parent": "e4c286ef0e41f50e",
@@ -56,53 +41,25 @@
 			"template": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"Font": {
-					"type": "ZString",
-					"value": "$bold"
-				},
-				"FontSize": {
-					"type": "float32",
-					"value": 40
-				},
+				"Font": { "type": "ZString", "value": "$bold" },
+				"FontSize": { "type": "float32", "value": 40 },
 				"Text": {
 					"type": "ZString",
 					"value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 				},
 				"m_vSize": {
 					"type": "SVector2",
-					"value": {
-						"x": 470,
-						"y": 240
-					}
+					"value": { "x": 470, "y": 240 }
 				},
-				"WrapText": {
-					"type": "bool",
-					"value": true
-				},
+				"WrapText": { "type": "bool", "value": true },
 				"m_vPositionOffset": {
 					"type": "SVector3",
-					"value": {
-						"x": -235,
-						"y": -458,
-						"z": 0
-					}
+					"value": { "x": -235, "y": -458, "z": 0 }
 				},
-				"TextColor": {
-					"type": "ZString",
-					"value": "000000"
-				},
-				"m_bIsVisible": {
-					"type": "bool",
-					"value": true
-				},
-				"TextAlignment": {
-					"type": "ZString",
-					"value": "center"
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+				"TextColor": { "type": "ZString", "value": "000000" },
+				"m_bIsVisible": { "type": "bool", "value": true },
+				"TextAlignment": { "type": "ZString", "value": "center" }
+			}
 		},
 		"e2b99940e4b48383": {
 			"parent": "e4c286ef0e41f50e",
@@ -113,11 +70,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -4.090345859527588,
 							"y": 5.078889846801758,
@@ -129,10 +82,7 @@
 					"type": "SEntityTemplateReference",
 					"value": null
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"cff6ee896dec2f65": {
 			"parent": "e4c286ef0e41f50e",
@@ -177,14 +127,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "e2b99940e4b48383"
 				},
-				"m_bShowOnTop": {
-					"type": "bool",
-					"value": false
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+				"m_bShowOnTop": { "type": "bool", "value": false }
+			}
 		},
 		"719d625422316c2a": {
 			"parent": "e4c286ef0e41f50e",
@@ -199,30 +143,14 @@
 						"flag": "9F"
 					}
 				},
-				"ScaleX": {
-					"type": "float32",
-					"value": 2
-				},
-				"ScaleY": {
-					"type": "float32",
-					"value": 2
-				},
+				"ScaleX": { "type": "float32", "value": 2 },
+				"ScaleY": { "type": "float32", "value": 2 },
 				"m_vPositionOffset": {
 					"type": "SVector3",
-					"value": {
-						"x": -267,
-						"y": -490,
-						"z": 0
-					}
+					"value": { "x": -267, "y": -490, "z": 0 }
 				},
-				"m_bIsVisible": {
-					"type": "bool",
-					"value": true
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+				"m_bIsVisible": { "type": "bool", "value": true }
+			}
 		},
 		"8f8fcaa7612a0ffe": {
 			"parent": "e4c286ef0e41f50e",
@@ -234,10 +162,7 @@
 					"type": "SEntityTemplateReference",
 					"value": "7b6385cd0de7a7f"
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"e4c286ef0e41f50e": {
 			"parent": null,
@@ -248,11 +173,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -4.090345859527588,
 							"y": 5.078889846801758,
@@ -265,85 +186,82 @@
 					"value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 				}
 			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"propertyAliases": [{
-				"exposeProperty": "m_eidParent",
-				"onEntity": "e2b99940e4b48383",
-				"asProperty": "m_eidParent"
-			}, {
-				"exposeProperty": "Text",
-				"onEntity": "7b6385cd0de7a7f",
-				"asProperty": "Text"
-			}, {
-				"exposeProperty": "m_bIsVisible",
-				"onEntity": "7b6385cd0de7a7f",
-				"asProperty": "m_bIsVisible"
-			}, {
-				"exposeProperty": "m_bIsVisible",
-				"onEntity": "719d625422316c2a",
-				"asProperty": "m_bIsVisible"
-			}, {
-				"exposeProperty": "m_bIsVisible",
-				"onEntity": "b0ed0a66833ce582",
-				"asProperty": "m_bIsVisible"
-			}, {
-				"exposeProperty": "m_mTransform",
-				"onEntity": "e2b99940e4b48383",
-				"asProperty": "m_mTransform"
-			}, {
-				"exposeProperty": "m_bShowOnTop",
-				"onEntity": "cff6ee896dec2f65",
-				"asProperty": "m_bShowOnTop"
-			}, {
-				"exposeProperty": "FontSize",
-				"onEntity": "7b6385cd0de7a7f",
-				"asProperty": "FontSize"
-			}, {
-				"exposeProperty": "ScaleY",
-				"onEntity": "719d625422316c2a",
-				"asProperty": "ScaleY"
-			}, {
-				"exposeProperty": "m_vSize",
-				"onEntity": "7b6385cd0de7a7f",
-				"asProperty": "m_vSize"
-			}],
-			"exposedInterfaces": [
-				["ZSpatialEntity", "e2b99940e4b48383"]
-			],
-			"inputCopying": [{
-				"whenTriggered": "SetVisible",
-				"alsoTrigger": "SetVisible",
-				"onEntity": "c026fe94e491674b"
-			}, {
-				"whenTriggered": "SetVisible",
-				"alsoTrigger": "SetVisible",
-				"onEntity": "8f8fcaa7612a0ffe"
-			}, {
-				"whenTriggered": "Show",
-				"alsoTrigger": "Show",
-				"onEntity": "c026fe94e491674b"
-			}, {
-				"whenTriggered": "Show",
-				"alsoTrigger": "Show",
-				"onEntity": "8f8fcaa7612a0ffe"
-			}, {
-				"whenTriggered": "Hide",
-				"alsoTrigger": "Hide",
-				"onEntity": "c026fe94e491674b"
-			}, {
-				"whenTriggered": "Hide",
-				"alsoTrigger": "Hide",
-				"onEntity": "8f8fcaa7612a0ffe"
-			}]
+			"inputCopying": {
+				"SetVisible": {
+					"SetVisible": ["c026fe94e491674b", "8f8fcaa7612a0ffe"]
+				},
+				"Show": { "Show": ["c026fe94e491674b", "8f8fcaa7612a0ffe"] },
+				"Hide": { "Hide": ["c026fe94e491674b", "8f8fcaa7612a0ffe"] }
+			},
+			"propertyAliases": {
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "e2b99940e4b48383"
+					}
+				],
+				"Text": [
+					{
+						"originalProperty": "Text",
+						"originalEntity": "7b6385cd0de7a7f"
+					}
+				],
+				"m_bIsVisible": [
+					{
+						"originalProperty": "m_bIsVisible",
+						"originalEntity": "7b6385cd0de7a7f"
+					},
+					{
+						"originalProperty": "m_bIsVisible",
+						"originalEntity": "719d625422316c2a"
+					},
+					{
+						"originalProperty": "m_bIsVisible",
+						"originalEntity": "b0ed0a66833ce582"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "e2b99940e4b48383"
+					}
+				],
+				"m_bShowOnTop": [
+					{
+						"originalProperty": "m_bShowOnTop",
+						"originalEntity": "cff6ee896dec2f65"
+					}
+				],
+				"FontSize": [
+					{
+						"originalProperty": "FontSize",
+						"originalEntity": "7b6385cd0de7a7f"
+					}
+				],
+				"ScaleY": [
+					{
+						"originalProperty": "ScaleY",
+						"originalEntity": "719d625422316c2a"
+					}
+				],
+				"m_vSize": [
+					{
+						"originalProperty": "m_vSize",
+						"originalEntity": "7b6385cd0de7a7f"
+					}
+				]
+			},
+			"exposedInterfaces": { "ZSpatialEntity": "e2b99940e4b48383" }
 		}
 	},
+	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"propertyOverrides": [],
 	"externalScenes": [],
-	"subType": 0,
-	"quickEntityVersion": 2.1
+	"subType": "template",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

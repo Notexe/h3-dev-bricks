@@ -12,51 +12,29 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						},
-						"position": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": -1
-				},
+				"m_fActTimeout": { "type": "float32", "value": -1 },
 				"m_MovementType": {
 					"type": "ZActBehaviorEntity.EMovementType",
 					"value": "MT_SNAP"
 				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bFastTransition": {
-					"type": "bool",
-					"value": true
-				},
-				"m_Color": {
-					"type": "SColorRGB",
-					"value": "#24cb0f"
-				}
-			},
-			"postInitProperties": {
+				"m_bAlignPosition": { "type": "bool", "value": false },
+				"m_bFastTransition": { "type": "bool", "value": true },
+				"m_Color": { "type": "SColorRGB", "value": "#24cb0f" },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "a4dc9818ee3aee73"
+					"value": "a4dc9818ee3aee73",
+					"postInit": true
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "51e01d2c179f0654"
+					"value": "51e01d2c179f0654",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"a4dc9818ee3aee73": {
 			"parent": "51e01d2c179f0654",
@@ -68,10 +46,7 @@
 					"type": "SEntityTemplateReference",
 					"value": null
 				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"6fa26f59df83afd5": {
 			"parent": "51e01d2c179f0654",
@@ -82,39 +57,19 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						},
-						"position": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"Text": {
-					"type": "ZString",
-					"value": "Oh Snap!"
-				},
-				"m_bShowOnTop": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bIsVisible": {
-					"type": "bool",
-					"value": false
-				}
-			},
-			"postInitProperties": {
+				"Text": { "type": "ZString", "value": "Oh Snap!" },
+				"m_bShowOnTop": { "type": "bool", "value": true },
+				"m_bIsVisible": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "51e01d2c179f0654"
+					"value": "51e01d2c179f0654",
+					"postInit": true
 				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			}
 		},
 		"f448628960c98839": {
 			"parent": "51e01d2c179f0654",
@@ -122,36 +77,22 @@
 			"template": "005B2A6454B76874",
 			"blueprint": "00BD25C96EAAC850",
 			"properties": {
-				"m_nBasePriority": {
-					"type": "int32",
-					"value": 9999
-				},
-				"m_nPriority": {
-					"type": "int32",
-					"value": 9999
-				},
+				"m_nBasePriority": { "type": "int32", "value": 9999 },
+				"m_nPriority": { "type": "int32", "value": 9999 },
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["a4dc9818ee3aee73"]
-				}
-			},
-			"postInitProperties": {
+				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["323dc7cc5d66e3c3"]
+					"value": ["323dc7cc5d66e3c3"],
+					"postInit": true
 				}
 			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnDone",
-				"shouldTrigger": "SetFalse",
-				"onEntity": "323dc7cc5d66e3c3"
-			}, {
-				"onEvent": "OnStart",
-				"shouldTrigger": "Start",
-				"onEntity": "a313987351e81f01"
-			}]
+			"events": {
+				"OnDone": { "SetFalse": ["323dc7cc5d66e3c3"] },
+				"OnStart": { "Start": ["a313987351e81f01"] }
+			}
 		},
 		"6c21b6a26a781cee": {
 			"parent": "51e01d2c179f0654",
@@ -163,66 +104,42 @@
 					"type": "SEntityTemplateReference",
 					"value": "a313987351e81f01"
 				},
-				"m_bIsPlaying": {
-					"type": "bool",
-					"value": true
-				}
+				"m_bIsPlaying": { "type": "bool", "value": true }
 			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnTrue",
-				"shouldTrigger": "Done",
-				"onEntity": "f448628960c98839"
-			}]
+			"events": { "OnTrue": { "Done": ["f448628960c98839"] } }
 		},
 		"323dc7cc5d66e3c3": {
 			"parent": "51e01d2c179f0654",
 			"name": "ValueBool_Basic",
 			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnValue",
-				"shouldTrigger": "SetVisible",
-				"onEntity": "6fa26f59df83afd5"
-			}],
-			"outputCopying": [{
-				"onEvent": "OnFalse",
-				"propagateEvent": "OnSnap",
-				"onEntity": "51e01d2c179f0654"
-			}]
+			"events": { "OnValue": { "SetVisible": ["6fa26f59df83afd5"] } },
+			"outputCopying": { "OnFalse": { "OnSnap": ["51e01d2c179f0654"] } }
 		},
 		"51e01d2c179f0654": {
 			"parent": null,
 			"name": "Debug_ActorSnapper",
 			"template": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"propertyAliases": [{
-				"exposeProperty": "m_rActorProvider",
-				"onEntity": "a4dc9818ee3aee73",
-				"asProperty": "m_rActorProvider"
-			}],
-			"inputCopying": [{
-				"whenTriggered": "Snap",
-				"alsoTrigger": "SetTrue",
-				"onEntity": "323dc7cc5d66e3c3"
-			}]
+			"inputCopying": { "Snap": { "SetTrue": ["323dc7cc5d66e3c3"] } },
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "a4dc9818ee3aee73"
+					}
+				]
+			}
 		}
 	},
+	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"propertyOverrides": [],
 	"externalScenes": [],
-	"subType": 0,
-	"quickEntityVersion": 2.1
+	"subType": "template",
+	"quickEntityVersion": 3,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

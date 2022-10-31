@@ -1,28 +1,40 @@
 {
-  "id": "Notex.DevBricks",
-  "name": "DevBricks",
-  "description": "Development Bricks for maps",
-  "authors": ["Notex"],
-  "contentFolder": "content",
-  "packagedefinition": [
-    {
-      "type": "entity",
-      "partition": "super",
-      "path": "[assembly:/_pro/scenes/missions/golden/mission_gecko/dev_gecko.brick].entitytype"
-    },
-    {
-      "type": "entity",
-      "partition": "ancestral",
-      "path": "[assembly:/_pro/scenes/missions/ancestral/dev_bulldog.brick].entitytype"
-    },
-    {
-      "type": "entity",
-      "partition": "elegant",
-      "path": "[assembly:/_pro/scenes/missions/elegant/dev_llama.brick].entitytype"
-    }
-  ],
-  "dependencies": ["007D2E061E2FCF3B", "00894F16BA00D5ED"],
-  "version": "1.0.2",
-  "updateCheck": "https://framework.notex.app/updates/DevBricks.json",
-  "frameworkVersion": "1.0.0"
+	"id": "Notex.DevBricks",
+	"name": "DevBricks",
+	"description": "Development Bricks for maps",
+	"authors": ["Notex"],
+	"contentFolder": "content",
+	"packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "super",
+			"path": "[assembly:/_pro/scenes/missions/golden/mission_gecko/dev_gecko.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "ancestral",
+			"path": "[assembly:/_pro/scenes/missions/ancestral/dev_bulldog.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "elegant",
+			"path": "[assembly:/_pro/scenes/missions/elegant/dev_llama.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_PRO/scenes/missions/miami/dev_flamingo.brick].entitytype"
+		}
+	],
+	"dependencies": [
+		"007D2E061E2FCF3B",
+		"00894F16BA00D5ED",
+		"00894F16BA00D5ED",
+		"00FB3D0BF912C7C6",
+		"00C80533DFFD2E62",
+		"00CCB280C8BD9DA7"
+	],
+	"version": "1.0.2",
+	"updateCheck": "https://framework.notex.app/updates/DevBricks.json",
+	"frameworkVersion": "1.0.0"
 }

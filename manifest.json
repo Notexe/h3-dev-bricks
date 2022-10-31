@@ -3,7 +3,7 @@
 	"name": "DevBricks",
 	"description": "Development Bricks for maps",
 	"authors": ["Notex"],
-	"contentFolder": "content",
+	"contentFolders": ["content"],
 	"packagedefinition": [
 		{
 			"type": "entity",
@@ -34,7 +34,7 @@
 		"00C80533DFFD2E62",
 		"00CCB280C8BD9DA7"
 	],
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"updateCheck": "https://framework.notex.app/updates/DevBricks.json",
-	"frameworkVersion": "1.0.0"
+	"frameworkVersion": "2.0.0"
 }

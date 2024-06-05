@@ -43,6 +43,7 @@
 			"toChunk": 0
 		}
 	],
-	"version": "1.0.3",
-	"frameworkVersion": "2.0.0"
+	"version": "1.0.4",
+	"frameworkVersion": "2.33.14",
+	"updateCheck": "https://github.com/Notexe/h3-dev-bricks/releases/latest/download/updates.json"
 }

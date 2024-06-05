@@ -1,7 +1,7 @@
 {
 	"id": "Notex.DevBricks",
-	"name": "DevBricks",
-	"description": "Development Bricks for maps",
+	"name": "Dev Bricks",
+	"description": "Development bricks ported from PS4",
 	"authors": ["Notex"],
 	"contentFolders": ["content"],
 	"packagedefinition": [
@@ -23,18 +23,26 @@
 		{
 			"type": "entity",
 			"partition": "miami",
-			"path": "[assembly:/_PRO/scenes/missions/miami/dev_flamingo.brick].entitytype"
+			"path": "[assembly://_proscenes/missions/miami/dev_flamingo.brick].entitytype"
 		}
 	],
 	"dependencies": [
 		"007D2E061E2FCF3B",
 		"00894F16BA00D5ED",
-		"00894F16BA00D5ED",
 		"00FB3D0BF912C7C6",
 		"00C80533DFFD2E62",
-		"00CCB280C8BD9DA7"
+		"00CCB280C8BD9DA7",
+		{
+			"portFromChunk1": true,
+			"runtimeID": "0059FBD4AEBCDED0",
+			"toChunk": 0
+		},
+		{
+			"portFromChunk1": true,
+			"runtimeID": "000E585B18175F8F",
+			"toChunk": 0
+		}
 	],
 	"version": "1.0.3",
-	"updateCheck": "https://framework.notex.app/updates/DevBricks.json",
 	"frameworkVersion": "2.0.0"
 }

@@ -6,19 +6,13 @@
 		"bffcf855295b41b4": {
 			"parent": "241611f1eeff7a5d",
 			"name": "TextBox_MainHeadline",
-			"template": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Text": { "type": "ZString", "value": "Area" },
-				"m_vSize": {
-					"type": "SVector2",
-					"value": { "x": 600, "y": 30 }
-				},
+				"m_vSize": { "type": "SVector2", "value": { "x": 600, "y": 30 } },
 				"WrapText": { "type": "bool", "value": false },
-				"m_vPositionOffset": {
-					"type": "SVector3",
-					"value": { "x": 0, "y": 0, "z": 0 }
-				},
+				"m_vPositionOffset": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 0 } },
 				"FontSize": { "type": "float32", "value": 18 },
 				"Font": { "type": "ZString", "value": "$normal" },
 				"TextColor": { "type": "ZString", "value": "aaaaaa" },
@@ -33,32 +27,22 @@
 		"d197f06bb9431de4": {
 			"parent": "241611f1eeff7a5d",
 			"name": "VisibilityController_MainObejctives",
-			"template": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
+			"factory": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
 			"properties": {
-				"m_pTargetControl": {
-					"type": "SEntityTemplateReference",
-					"value": "9063219b8809cae1",
-					"postInit": true
-				}
+				"m_pTargetControl": { "type": "SEntityTemplateReference", "value": "9063219b8809cae1", "postInit": true }
 			}
 		},
 		"f8ec832d87f89a37": {
 			"parent": "241611f1eeff7a5d",
 			"name": "TextBox_MainObjective03",
-			"template": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Text": { "type": "ZString", "value": "Market Square" },
-				"m_vSize": {
-					"type": "SVector2",
-					"value": { "x": 600, "y": 33 }
-				},
+				"m_vSize": { "type": "SVector2", "value": { "x": 600, "y": 33 } },
 				"WrapText": { "type": "bool", "value": false },
-				"m_vPositionOffset": {
-					"type": "SVector3",
-					"value": { "x": 0, "y": 15, "z": 0 }
-				},
+				"m_vPositionOffset": { "type": "SVector3", "value": { "x": 0, "y": 15, "z": 0 } },
 				"FontSize": { "type": "float32", "value": 25 },
 				"Font": { "type": "ZString", "value": "$bold" },
 				"TextColor": { "type": "ZString", "value": "ffffff" },
@@ -68,124 +52,79 @@
 		"9063219b8809cae1": {
 			"parent": "241611f1eeff7a5d",
 			"name": "MainObejctivesContainer",
-			"template": "[assembly:/templates/ui/controls/basiccontrols.template?/container.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/templates/ui/controls/basiccontrols.template?/container.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/ui/controls/basiccontrols.template?/container.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_aChildren": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["bffcf855295b41b4"]
-				},
+				"m_aChildren": { "type": "TArray<SEntityTemplateReference>", "value": ["bffcf855295b41b4"] },
 				"m_eAlignmentType": {
 					"type": "ZUIControlLayoutLegacyAspect.EAlignmentType",
 					"value": "E_ALIGNMENT_TYPE_TopCenter"
 				},
-				"m_vSize": {
-					"type": "SVector2",
-					"value": { "x": 220, "y": 82 }
-				},
+				"m_vSize": { "type": "SVector2", "value": { "x": 220, "y": 82 } },
 				"m_bIsVisible": { "type": "bool", "value": false },
-				"m_vPositionOffset": {
-					"type": "SVector3",
-					"value": { "x": 0, "y": 0, "z": 0 }
-				}
+				"m_vPositionOffset": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 0 } }
 			}
 		},
 		"995480ed235cc860": {
 			"parent": "241611f1eeff7a5d",
 			"name": "ControlTree",
-			"template": "[modules:/zuicontroltreeentity.class].pc_entitytype",
+			"factory": "[modules:/zuicontroltreeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zuicontroltreeentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pRootControlEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "9063219b8809cae1"
-				}
-			}
+			"properties": { "m_pRootControlEntity": { "type": "SEntityTemplateReference", "value": "9063219b8809cae1" } }
 		},
 		"fe0c91cd432bd9d8": {
 			"parent": "241611f1eeff7a5d",
 			"name": "IsEnabled",
-			"template": "[modules:/zhm5valueentity_bool.class].pc_entitytype",
+			"factory": "[modules:/zhm5valueentity_bool.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5valueentity_bool.class].pc_entityblueprint",
 			"properties": { "m_Value": { "type": "bool", "value": true } }
 		},
 		"e9db8582e8abc505": {
 			"parent": "241611f1eeff7a5d",
 			"name": "IsTextVisible",
-			"template": "[modules:/zhm5valueentity_bool.class].pc_entitytype",
+			"factory": "[modules:/zhm5valueentity_bool.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5valueentity_bool.class].pc_entityblueprint",
-			"events": {
-				"OnTrue": { "Show": ["d197f06bb9431de4"] },
-				"OnFalse": { "Hide": ["d197f06bb9431de4"] }
-			}
+			"events": { "OnTrue": { "Show": ["d197f06bb9431de4"] }, "OnFalse": { "Hide": ["d197f06bb9431de4"] } }
 		},
 		"149599a84e4594d7": {
 			"parent": "241611f1eeff7a5d",
 			"name": "GetConditionValue",
-			"template": "[modules:/zgetconditionvalue.class].pc_entitytype",
+			"factory": "[modules:/zgetconditionvalue.class].pc_entitytype",
 			"blueprint": "[modules:/zgetconditionvalue.class].pc_entityblueprint",
-			"properties": {
-				"m_rCondition": {
-					"type": "SEntityTemplateReference",
-					"value": "e9db8582e8abc505"
-				}
-			},
+			"properties": { "m_rCondition": { "type": "SEntityTemplateReference", "value": "e9db8582e8abc505" } },
 			"events": { "OnTrue": { "SetFalse": ["e9db8582e8abc505"] } },
 			"outputCopying": { "OnTrue": { "OnTrue1": ["241611f1eeff7a5d"] } }
 		},
 		"1c5d06ee2018c82f": {
 			"parent": "241611f1eeff7a5d",
 			"name": "VolumeTriggerCharacter",
-			"template": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_Boxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				}
-			}
+			"properties": { "m_Boxes": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
 		},
 		"241611f1eeff7a5d": {
 			"parent": null,
 			"name": "DEBUG_LD_Area_Description_GlobalMarkup",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {
 				"Enabled": { "type": "bool", "value": true },
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Market Square"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Market Square" }
 			},
 			"inputCopying": {
 				"Enable": { "SetTrue": ["fe0c91cd432bd9d8"] },
 				"Disable": { "SetFalse": ["fe0c91cd432bd9d8"] }
 			},
 			"propertyAliases": {
-				"Moment_Description": [
-					{
-						"originalProperty": "Text",
-						"originalEntity": "f8ec832d87f89a37"
-					}
-				],
-				"Enabled": [
-					{
-						"originalProperty": "m_Value",
-						"originalEntity": "fe0c91cd432bd9d8"
-					}
-				],
-				"m_Boxes": [
-					{
-						"originalProperty": "m_Boxes",
-						"originalEntity": "1c5d06ee2018c82f"
-					}
-				]
+				"Enabled": [{ "originalProperty": "m_Value", "originalEntity": "fe0c91cd432bd9d8" }],
+				"Moment_Description": [{ "originalProperty": "Text", "originalEntity": "f8ec832d87f89a37" }],
+				"m_Boxes": [{ "originalProperty": "m_Boxes", "originalEntity": "1c5d06ee2018c82f" }]
 			}
 		},
 		"5c08f10a2cac2786": {
 			"parent": "241611f1eeff7a5d",
 			"name": "Enabled AND in area",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aValues": {
@@ -194,10 +133,7 @@
 				},
 				"m_bFireOnLevelStart": { "type": "bool", "value": true }
 			},
-			"events": {
-				"OnTrue": { "SetTrue": ["e9db8582e8abc505"] },
-				"OnFalse": { "Get": ["149599a84e4594d7"] }
-			},
+			"events": { "OnTrue": { "SetTrue": ["e9db8582e8abc505"] }, "OnFalse": { "Get": ["149599a84e4594d7"] } },
 			"outputCopying": { "OnTrue": { "OnTrue": ["241611f1eeff7a5d"] } }
 		}
 	},
@@ -207,7 +143,7 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [],
 	"subType": "template",
-	"quickEntityVersion": 3,
+	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []

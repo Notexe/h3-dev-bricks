@@ -3,46 +3,31 @@
 	"tbluHash": "002BCDC2FEBAE055",
 	"rootEntity": "fffffffffffffffe",
 	"entities": {
-		"4738d848e34796e": {
+		"04738d848e34796e": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Bathroom",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 22.97085952758789,
-							"y": 16.338510513305664,
-							"z": 14.135589599609375
-						}
+						"position": { "x": 22.97085952758789, "y": 16.338510513305664, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 9.284489631652832,
-						"y": 6.674779891967773,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 9.284489631652832, "y": 6.674779891967773, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Bathroom"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Bathroom" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"ac10f0156645540b": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set 47 has been in Zacharys bedroom",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -55,9 +40,9 @@
 			}
 		},
 		"90458e02410bfab1": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Unlock Burial guide",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
@@ -71,17 +56,14 @@
 			}
 		},
 		"8d71478ffe2c1352": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Alexa to office",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0.5 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0.5 } }
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -100,24 +82,16 @@
 			}
 		},
 		"c5a6e0a2b9c78673": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Alexa to living room",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -134.54890879774297
-						},
-						"position": {
-							"x": 10.725560188293457,
-							"y": 48.30921936035156,
-							"z": 4.000002861022949
-						}
+						"rotation": { "x": 0, "y": 0, "z": -134.54890879774297 },
+						"position": { "x": 10.725560188293457, "y": 48.30921936035156, "z": 4.000002861022949 }
 					}
 				},
 				"m_rActorProvider": {
@@ -127,93 +101,56 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"f584a4e07b8073ce": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Rocky Part",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -13.126513793910814
-						},
-						"position": {
-							"x": 96.64462280273438,
-							"y": 94.55471801757813,
-							"z": 2.7422759532928467
-						}
+						"rotation": { "x": 0, "y": 0, "z": -13.126513793910814 },
+						"position": { "x": 96.64462280273438, "y": 94.55471801757813, "z": 2.7422759532928467 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 45.10879898071289,
-						"y": 94.53070068359375,
-						"z": 9.979260444641113
-					}
+					"value": { "x": 45.10879898071289, "y": 94.53070068359375, "z": 9.979260444641113 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Rocky Part"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Rocky Part" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"7fa5c8e52aa91d00": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "First Floor Living Room",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.060506001114845276,
-							"y": 49.859771728515625,
-							"z": 14.135589599609375
-						}
+						"position": { "x": 0.060506001114845276, "y": 49.859771728515625, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 26.628799438476563,
-						"y": 25.802900314331055,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 26.628799438476563, "y": 25.802900314331055, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "First Floor Living Room"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "First Floor Living Room" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"34c03fe6486b3149": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug set Butler consulted",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -226,9 +163,9 @@
 			}
 		},
 		"d89079523a4c7d7c": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Rebeccas family gathering done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -241,135 +178,83 @@
 			}
 		},
 		"7552c5b1eafce33e": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug kill Alexa",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": 39.561649322509766,
-							"y": 53.506561279296875,
-							"z": 4.000002861022949
-						}
+						"position": { "x": 39.561649322509766, "y": 53.506561279296875, "z": 4.000002861022949 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug kill Alexa"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": ""
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug kill Alexa" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "cf7a5d04-a6de-4426-a41a-de7bab40834c"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "cf7a5d04-a6de-4426-a41a-de7bab40834c" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"events": {
-				"OnTriggered": { "KillUnnoticed": ["4a36a37f4bc3d764"] }
-			},
+			"events": { "OnTriggered": { "KillUnnoticed": ["4a36a37f4bc3d764"] } },
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"25808638faf2deb7": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Laundry",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 37.69485092163086,
-							"y": 43.35226058959961,
-							"z": 1.253061056137085
-						}
+						"position": { "x": 37.69485092163086, "y": 43.35226058959961, "z": 1.253061056137085 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 13.14229965209961,
-						"y": 5.485779762268066,
-						"z": 5.465849876403809
-					}
+					"value": { "x": 13.14229965209961, "y": 5.485779762268066, "z": 5.465849876403809 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Laundry" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
-		"febf1827be0c776": {
+		"0febf1827be0c776": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Secret Room to Library",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -12.902460098266602,
-							"y": 26.404590606689453,
-							"z": 14.135589599609375
-						}
+						"position": { "x": -12.902460098266602, "y": 26.404590606689453, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 3.7154200077056885,
-						"y": 7.905779838562012,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 3.7154200077056885, "y": 7.905779838562012, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Secret Room to Library"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Secret Room to Library" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"cc64b04837482db9": {
-			"parent": "7dcc5011d6b12d9",
+			"parent": "07dcc5011d6b12d9",
 			"name": "Performance profiling",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"ed4211eaf862cc2d": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Butlers motive found",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -382,9 +267,9 @@
 			}
 		},
 		"bc76197deeb87c66": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Undertaker",
-			"template": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rActor": {
@@ -397,9 +282,9 @@
 			}
 		},
 		"da86ff577588a2a9": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Emmas motive found",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -412,9 +297,9 @@
 			}
 		},
 		"f9cc702d66121c45": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set maid done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -427,9 +312,9 @@
 			}
 		},
 		"e48f4205834fd51e": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Alexa thinks family gathering is done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -444,145 +329,103 @@
 		"c6a8163b57041106": {
 			"parent": "76e88c6a6b335a84",
 			"name": "Greenhouse",
-			"template": "[modules:/zeditorfocusentity.class].pc_entitytype",
+			"factory": "[modules:/zeditorfocusentity.class].pc_entitytype",
 			"blueprint": "[modules:/zeditorfocusentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 1.9896739721298218,
-							"y": 10.641240119934082,
-							"z": 0.42635801434516907
-						}
+						"position": { "x": 1.9896739721298218, "y": 10.641240119934082, "z": 0.42635801434516907 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 342.49200439453125,
-						"y": 337.010986328125,
-						"z": 4.052299976348877
-					}
+					"value": { "x": 342.49200439453125, "y": 337.010986328125, "z": 4.052299976348877 }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"b81b70a677d0ec71": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Toilet 2",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -25.1558895111084,
-							"y": 25.408409118652344,
-							"z": 6.410652160644531
-						}
+						"position": { "x": -25.1558895111084, "y": 25.408409118652344, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 7.802060127258301,
-						"y": 6.695069789886475,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 7.802060127258301, "y": 6.695069789886475, "z": 8.936790466308594 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Toilet 1"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Toilet 1" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"438c33d6280fe01c": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Living Room",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.013852999545633793,
-							"y": 50.33559036254883,
-							"z": 6.009607791900635
-						}
+						"position": { "x": -0.013852999545633793, "y": 50.33559036254883, "z": 6.009607791900635 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 27.32040023803711,
-						"y": 26.9414005279541,
-						"z": 8.134699821472168
-					}
+					"value": { "x": 27.32040023803711, "y": 26.9414005279541, "z": 8.134699821472168 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Living Room"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Living Room" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"aecdc41567f5a7f0": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap to greenhouse timer",
-			"template": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
 			"events": { "Out": { "Signal": ["6188acc6d3292b14"] } }
 		},
 		"beedc3e0c9442fa1": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set investigator investigating",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "2d238552f3b9df6",
+						"ref": "02d238552f3b9df6",
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				}
 			}
 		},
 		"55eb9ab9ea12eebb": {
-			"parent": "7dcc5011d6b12d9",
+			"parent": "07dcc5011d6b12d9",
 			"name": "Area descriptions",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"35d8453048e3a8a2": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set reveal conversation done",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "7cefd987cec9bd6",
+						"ref": "07cefd987cec9bd6",
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
@@ -592,108 +435,68 @@
 		"eed73a1aee328282": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "First Floor Foyer",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.09647899866104126,
-							"y": 10.261679649353027,
-							"z": 14.135589599609375
-						}
+						"position": { "x": -0.09647899866104126, "y": 10.261679649353027, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 22.85460090637207,
-						"y": 39.46689987182617,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 22.85460090637207, "y": 39.46689987182617, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "First Floor Foyer"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "First Floor Foyer" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"a326a8408e21c72d": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set undertaker state",
-			"template": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out02": { "In": ["dd4e3ce6b5fb2824"] },
-				"Out01": { "Signal": ["f22688a3cbd06d78"] }
-			}
+			"events": { "Out02": { "In": ["dd4e3ce6b5fb2824"] }, "Out01": { "Signal": ["f22688a3cbd06d78"] } }
 		},
 		"8e56b0d56b602791": {
-			"parent": "ae62e2af746516d",
+			"parent": "0ae62e2af746516d",
 			"name": "47 has joint",
-			"template": "[modules:/zherokeywordcondition.class].pc_entitytype",
+			"factory": "[modules:/zherokeywordcondition.class].pc_entitytype",
 			"blueprint": "[modules:/zherokeywordcondition.class].pc_entityblueprint",
 			"properties": {
 				"m_bCheckRightHand": { "type": "bool", "value": false },
 				"m_bUseInventory": { "type": "bool", "value": true },
-				"m_eEvaluation": {
-					"type": "ZHeroKeywordCondition.EEvaluationType",
-					"value": "ANY"
-				},
-				"m_rRequirements": {
-					"type": "SEntityTemplateReference",
-					"value": "d03477232bd8b1e2",
-					"postInit": true
-				}
+				"m_eEvaluation": { "type": "ZHeroKeywordCondition.EEvaluationType", "value": "ANY" },
+				"m_rRequirements": { "type": "SEntityTemplateReference", "value": "d03477232bd8b1e2", "postInit": true }
 			}
 		},
 		"a0bd0485becd4cf2": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Mausoleum",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -131.62289428710938,
-							"y": 33.481788635253906,
-							"z": -2.887460947036743
-						}
+						"position": { "x": -131.62289428710938, "y": 33.481788635253906, "z": -2.887460947036743 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 15.644499778747559,
-						"y": 15.992600440979004,
-						"z": 4.676479816436768
-					}
+					"value": { "x": 15.644499778747559, "y": 15.992600440979004, "z": 4.676479816436768 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Graveyard"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Graveyard" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"f5c50857c0c6c91c": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set guards investigator frisked",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -706,20 +509,17 @@
 			}
 		},
 		"dd172acda93d7cc5": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Investigator to foyer entrance",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 142.96053995944155 },
-						"position": {
-							"x": -0.004801999777555466,
-							"y": 32.725669860839844,
-							"z": 4.008012771606445
-						}
+						"position": { "x": -0.004801999777555466, "y": 32.725669860839844, "z": 4.008012771606445 },
+						"scale": { "x": 1.0000000000000004, "y": 1.0000000000000004, "z": 1 }
 					}
 				},
 				"m_rActorProvider": {
@@ -729,17 +529,13 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"5d03963b8c096fa3": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Emmas family gathering done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -754,184 +550,112 @@
 		"c2874862da6ba56d": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Zachary bedroom",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 33.39929962158203,
-							"y": 47.57550811767578,
-							"z": 14.135589599609375
-						}
+						"position": { "x": 33.39929962158203, "y": 47.57550811767578, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 18.180200576782227,
-						"y": 21.147199630737305,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 18.180200576782227, "y": 21.147199630737305, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Zachary bedroom"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Zachary bedroom" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"452896d1692b2e39": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Staff Room",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 32.64934158325195,
-							"y": 51.43307113647461,
-							"z": 1.253061056137085
-						}
+						"position": { "x": 32.64934158325195, "y": 51.43307113647461, "z": 1.253061056137085 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 22.878599166870117,
-						"y": 10.783100128173828,
-						"z": 5.465849876403809
-					}
+					"value": { "x": 22.878599166870117, "y": 10.783100128173828, "z": 5.465849876403809 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Staff Room"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Staff Room" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"620972a031690c26": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Foyaer",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.05348600074648857,
-							"y": 6.429247856140137,
-							"z": 6.327716827392578
-						}
+						"position": { "x": 0.05348600074648857, "y": 6.429247856140137, "z": 6.327716827392578 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 22.85110092163086,
-						"y": 22.47170066833496,
-						"z": 8.770919799804688
-					}
+					"value": { "x": 22.85110092163086, "y": 22.47170066833496, "z": 8.770919799804688 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Foyaer" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"7299b4dd0a2f881f": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Parking Area",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.3752930164337158,
-							"y": -17.017820358276367,
-							"z": 9.526357650756836
-						}
+						"position": { "x": -1.3752930164337158, "y": -17.017820358276367, "z": 9.526357650756836 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 81.18769836425781,
-						"y": 38.79410171508789,
-						"z": 15.16819953918457
-					}
+					"value": { "x": 81.18769836425781, "y": 38.79410171508789, "z": 15.16819953918457 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Parking Area"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Parking Area" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"fa10213c784c5e03": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Sparse Forest",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 54.70127868652344,
-							"y": -114.1050033569336,
-							"z": 7.431543827056885
-						}
+						"position": { "x": 54.70127868652344, "y": -114.1050033569336, "z": 7.431543827056885 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 69.42620086669922,
-						"y": 58.90909957885742,
-						"z": 19.357799530029297
-					}
+					"value": { "x": 69.42620086669922, "y": 58.90909957885742, "z": 19.357799530029297 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Sparse Forest"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Sparse Forest" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
-		"5c4da0b1800f26f": {
-			"parent": "a79868492e5df5f",
+		"05c4da0b1800f26f": {
+			"parent": "0a79868492e5df5f",
 			"name": "Set butler escorting Investigator to Alexas office",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -943,10 +667,10 @@
 				}
 			}
 		},
-		"b76bf1d8cc3ef4a": {
-			"parent": "a79868492e5df5f",
+		"0b76bf1d8cc3ef4a": {
+			"parent": "0a79868492e5df5f",
 			"name": "Set suicide motive found",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -959,9 +683,9 @@
 			}
 		},
 		"1f89bc2b1c646728": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Bodyguard",
-			"template": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rActor": {
@@ -974,9 +698,9 @@
 			}
 		},
 		"da9a3ec6eb3ee1ab": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Alexa timed out",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -989,20 +713,16 @@
 			}
 		},
 		"214510f6c52ff71b": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap bodyguard to office 2",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": 8.9420166015625,
-							"y": 27.24898910522461,
-							"z": 18
-						}
+						"position": { "x": 8.9420166015625, "y": 27.24898910522461, "z": 18 }
 					}
 				},
 				"m_rActorProvider": {
@@ -1012,26 +732,19 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": { "OnSnap": { "Snap": ["6de6c5d84e7ea661"] } }
 		},
 		"2d4f2b2b05cd95f2": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Investigator to living room",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0.5 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0.5 } }
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1050,9 +763,9 @@
 			}
 		},
 		"ede09e79989a3740": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set staff called down Alexa",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -1065,9 +778,9 @@
 			}
 		},
 		"6afeb63d06f45c5c": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Alexas primary loop timed out",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -1082,162 +795,110 @@
 		"ddb0e541fda664b1": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Library",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -23.052770614624023,
-							"y": 11.747920036315918,
-							"z": 9.605433464050293
-						}
+						"position": { "x": -23.052770614624023, "y": 11.747920036315918, "z": 9.605433464050293 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 22.729299545288086,
-						"y": 20.708900451660156,
-						"z": 15.326399803161621
-					}
+					"value": { "x": 22.729299545288086, "y": 20.708900451660156, "z": 15.326399803161621 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Library" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"c7e245d55a8394a4": {
-			"parent": "ae62e2af746516d",
+			"parent": "0ae62e2af746516d",
 			"name": "Keyword_QUESTITEM_ITALY_JOINT",
-			"template": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_italy_joint.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_italy_joint.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_italy_joint.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["d03477232bd8b1e2"],
-					"postInit": true
-				}
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["d03477232bd8b1e2"], "postInit": true }
 			}
 		},
 		"efe2bdddd66a6953": {
 			"parent": "22f53805e144d9b1",
 			"name": "Debug Murder MS from staff member summoning family members",
-			"template": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
+			"factory": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
 			"events": { "Out": { "SetTrue": ["22778f66d3005c51"] } }
 		},
 		"7dc402eb502dfee1": {
 			"parent": "76e88c6a6b335a84",
 			"name": "F3",
-			"template": "[modules:/zeditorfocusentity.class].pc_entitytype",
+			"factory": "[modules:/zeditorfocusentity.class].pc_entitytype",
 			"blueprint": "[modules:/zeditorfocusentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 1.7057830095291138,
-							"y": 29.45155906677246,
-							"z": 23.19757080078125
-						}
+						"position": { "x": 1.7057830095291138, "y": 29.45155906677246, "z": 23.19757080078125 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 103.88700103759766,
-						"y": 99.11009979248047,
-						"z": 5.60867977142334
-					}
+					"value": { "x": 103.88700103759766, "y": 99.11009979248047, "z": 5.60867977142334 }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"8ee6ab4e0a051ed1": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Burial tracked",
-			"template": "[modules:/zsignalgateentity_bool.class].pc_entitytype",
+			"factory": "[modules:/zsignalgateentity_bool.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalgateentity_bool.class].pc_entityblueprint",
 			"events": { "Out": { "SignalData": ["e6cdf7cd17bc096c"] } }
 		},
 		"76e88c6a6b335a84": {
-			"parent": "7dcc5011d6b12d9",
+			"parent": "07dcc5011d6b12d9",
 			"name": "EditorFocus",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"3566fc23d8c34955": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Toilet 1",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 23.001089096069336,
-							"y": 26.273540496826172,
-							"z": 6.410652160644531
-						}
+						"position": { "x": 23.001089096069336, "y": 26.273540496826172, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 8.927539825439453,
-						"y": 7.071139812469482,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 8.927539825439453, "y": 7.071139812469482, "z": 8.936790466308594 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Toilet 1"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Toilet 1" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
-		"6959eb21903bd26": {
-			"parent": "a79868492e5df5f",
+		"06959eb21903bd26": {
+			"parent": "0a79868492e5df5f",
 			"name": "TEST",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 116.26005405308341 },
-						"position": {
-							"x": 87.07148742675781,
-							"y": -126.26080322265625,
-							"z": 1.9088200330734253
-						}
+						"position": { "x": 87.07148742675781, "y": -126.26080322265625, "z": 1.9088200330734253 },
+						"scale": { "x": 0.9999999999999998, "y": 0.9999999999999998, "z": 1 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "DEV BRICK LOADED"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "DEV BRICK LOADED" },
 				"ONm_sPromptDescriptionText": {
 					"type": "ZString",
 					"value": "This button exists in the dev brick (but does nothing)"
@@ -1245,43 +906,29 @@
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "84d05b72-69b3-4af1-b317-59cf77998f41"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "84d05b72-69b3-4af1-b317-59cf77998f41" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"ae62e2af746516d": {
+		"0ae62e2af746516d": {
 			"parent": "9920fcfae291b133",
 			"name": "Murder MS debug",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"967f06cc46656385": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Alexa to office 2",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": 7.258236885070801,
-							"y": 27.607030868530273,
-							"z": 18
-						}
+						"position": { "x": 7.258236885070801, "y": 27.607030868530273, "z": 18 }
 					}
 				},
 				"m_rActorProvider": {
@@ -1291,29 +938,22 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": { "OnSnap": { "Snap": ["a09081c809cd96be"] } }
 		},
 		"d7318eb73ba26a69": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Investigator to front of mansion",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 142.96053995944155 },
-						"position": {
-							"x": 0.07412099838256836,
-							"y": -26.160160064697266,
-							"z": 2.8580551147460938
-						}
+						"position": { "x": 0.07412099838256836, "y": -26.160160064697266, "z": 2.8580551147460938 },
+						"scale": { "x": 1.0000000000000004, "y": 1.0000000000000004, "z": 1 }
 					}
 				},
 				"m_rActorProvider": {
@@ -1323,18 +963,14 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": { "OnSnap": { "Snap": ["dd172acda93d7cc5"] } }
 		},
 		"226c1e5f46bb98f4": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Patricks family gathering done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -1347,9 +983,9 @@
 			}
 		},
 		"ff40153a8d8a37ba": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set butler investigator snooping",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -1362,50 +998,27 @@
 			}
 		},
 		"e7e8f83d69d4d4e2": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug Zacharys room",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": 35.74803924560547,
-							"y": 36.5052604675293,
-							"z": 11
-						}
+						"position": { "x": 35.74803924560547, "y": 36.5052604675293, "z": 11 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Murder MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Zachary's Room"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Murder MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Zachary's Room" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "eef86279-ae32-4832-83bb-2fbe3f44bda8"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sId": { "type": "ZGuid", "value": "eef86279-ae32-4832-83bb-2fbe3f44bda8" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
@@ -1419,58 +1032,35 @@
 		"8e0f32f6b1bb6b18": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Secret Room to Bedrooms",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 31.068889617919922,
-							"y": 15.459210395812988,
-							"z": 14.135589599609375
-						}
+						"position": { "x": 31.068889617919922, "y": 15.459210395812988, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 7.501299858093262,
-						"y": 3.490000009536743,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 7.501299858093262, "y": 3.490000009536743, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Secret Room to Bedrooms"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Secret Room to Bedrooms" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"b61532a0482cea75": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug Murder MS from suspects",
-			"template": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
+			"factory": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
-			"events": {
-				"Out": {
-					"SetTrue": [
-						"fe0d5cc40f200700",
-						"34c03fe6486b3149",
-						"ac10f0156645540b"
-					]
-				}
-			}
+			"events": { "Out": { "SetTrue": ["fe0d5cc40f200700", "34c03fe6486b3149", "ac10f0156645540b"] } }
 		},
 		"bad182a6d1684f4b": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Make Alexa think it was suicide",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -1485,96 +1075,54 @@
 		"201c45f0bbe1dba1": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "First Floor Library",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -23.242019653320313,
-							"y": 11.341609954833984,
-							"z": 14.135589599609375
-						}
+						"position": { "x": -23.242019653320313, "y": 11.341609954833984, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 23.38330078125,
-						"y": 21.344499588012695,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 23.38330078125, "y": 21.344499588012695, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "First Floor Library"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "First Floor Library" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"74ffb06ac31daff0": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Investigator outfit",
-			"template": "[modules:/zherooutfitmodifier.class].pc_entitytype",
+			"factory": "[modules:/zherooutfitmodifier.class].pc_entitytype",
 			"blueprint": "[modules:/zherooutfitmodifier.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "12f5bdb5-7e71-4f48-9740-13d0211f48c6"
-				}
-			}
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "12f5bdb5-7e71-4f48-9740-13d0211f48c6" } }
 		},
 		"766de24016edb3a7": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug accusation",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -90 },
-						"position": {
-							"x": 28.509140014648438,
-							"y": 21.58009910583496,
-							"z": 15
-						}
+						"rotation": { "x": 0, "y": 0, "z": -90.00000000000001 },
+						"position": { "x": 28.509140014648438, "y": 21.58009910583496, "z": 15 },
+						"scale": { "x": 1.0000000000000004, "y": 1.0000000000000004, "z": 1 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Murder MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Accusation"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Murder MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Accusation" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "b1ef1305-15a7-4597-8986-4ee2e70abe89"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "b1ef1305-15a7-4597-8986-4ee2e70abe89" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
@@ -1586,86 +1134,50 @@
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"d7a805892f5445fd": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug Burial MS",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -115.10590362548828,
-							"y": 46.42781066894531,
-							"z": 0.2208690047264099
-						}
+						"position": { "x": -115.10590362548828, "y": 46.42781066894531, "z": 0.2208690047264099 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Burial MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Alexa summoned"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Burial MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Alexa summoned" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "e765bd55-3503-4ca1-9e3a-4027d0b74ea0"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "e765bd55-3503-4ca1-9e3a-4027d0b74ea0" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
-					"SetTrue": [
-						"4f54159874833cb1",
-						"3ad8bf00d9314c4f",
-						"ede09e79989a3740"
-					],
+					"SetTrue": ["4f54159874833cb1", "3ad8bf00d9314c4f", "ede09e79989a3740"],
 					"GiveOutfit": ["105173287a4388fc"],
 					"KillUnnoticed": ["bc76197deeb87c66"],
 					"Signal": ["35d8453048e3a8a2", "90458e02410bfab1"],
-					"In": [
-						{
-							"ref": "8ee6ab4e0a051ed1",
-							"value": { "type": "bool", "value": true }
-						}
-					]
+					"In": [{ "ref": "8ee6ab4e0a051ed1", "value": { "type": "bool", "value": true } }]
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"6fecc020761f909d": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Alexa to foyer",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.077845998108387,
-							"y": 14.159310340881348,
-							"z": 4.000002861022949
-						}
+						"position": { "x": 0.077845998108387, "y": 14.159310340881348, "z": 4.000002861022949 }
 					}
 				},
 				"m_rActorProvider": {
@@ -1675,17 +1187,13 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"22778f66d3005c51": {
 			"parent": "22f53805e144d9b1",
 			"name": "Set photographer ready",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -1698,9 +1206,9 @@
 			}
 		},
 		"6188acc6d3292b14": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Start first greenhouse act",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
@@ -1714,50 +1222,28 @@
 			}
 		},
 		"799ea4ed4dbd3076": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug suicide",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": {
-							"x": 5.034573078155518,
-							"y": 58.33218002319336,
-							"z": 18
-						}
+						"rotation": { "x": 0, "y": 0, "z": 90.00000000000001 },
+						"position": { "x": 5.034573078155518, "y": 58.33218002319336, "z": 18 },
+						"scale": { "x": 1.0000000000000004, "y": 1.0000000000000004, "z": 1 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug suicide"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": ""
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug suicide" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "eb45bde0-6f83-4284-a9c3-35889ff70369"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "eb45bde0-6f83-4284-a9c3-35889ff70369" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
@@ -1769,9 +1255,9 @@
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"8c511fb5768f11ec": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Investigator",
-			"template": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rActor": {
@@ -1784,9 +1270,9 @@
 			}
 		},
 		"e33447d5ef10a2a5": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Make Alexa think she is meeting the Investigator in her office",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -1799,61 +1285,34 @@
 			}
 		},
 		"91a5e6294b6c8535": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug confronting Emma",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": -1.5041049718856812,
-							"y": 128.3260955810547,
-							"z": 0.3924359977245331
-						}
+						"position": { "x": -1.5041049718856812, "y": 128.3260955810547, "z": 0.3924359977245331 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Murder MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Suspects with secondry loops"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Murder MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Suspects with secondry loops" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "acfc39ed-a848-402b-be00-a99ee73affd8"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "acfc39ed-a848-402b-be00-a99ee73affd8" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
 					"In": ["29bcae09aae06d34", "b61532a0482cea75"],
 					"GiveOutfit": ["74ffb06ac31daff0"],
 					"KillUnnoticed": ["8c511fb5768f11ec"],
-					"SetTrue": [
-						"6afeb63d06f45c5c",
-						"e48f4205834fd51e",
-						"78f145ffe1f8457f"
-					],
+					"SetTrue": ["6afeb63d06f45c5c", "e48f4205834fd51e", "78f145ffe1f8457f"],
 					"Snap": ["943f781156869d2f"]
 				}
 			},
@@ -1862,99 +1321,61 @@
 		"b3e95b2a156834c2": {
 			"parent": "76e88c6a6b335a84",
 			"name": "B1",
-			"template": "[modules:/zeditorfocusentity.class].pc_entitytype",
+			"factory": "[modules:/zeditorfocusentity.class].pc_entitytype",
 			"blueprint": "[modules:/zeditorfocusentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -44.589908599853516,
-							"y": 33.145240783691406,
-							"z": -2.9758760929107666
-						}
+						"position": { "x": -44.589908599853516, "y": 33.145240783691406, "z": -2.9758760929107666 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 193.19500732421875,
-						"y": 90.08110046386719,
-						"z": 12.480799674987793
-					}
+					"value": { "x": 193.19500732421875, "y": 90.08110046386719, "z": 12.480799674987793 }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"73266f746d50ddbb": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug greeting",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": {
-							"x": 5.502291202545166,
-							"y": -8.6488676071167,
-							"z": 4
-						}
+						"rotation": { "x": 0, "y": 0, "z": 90.00000000000001 },
+						"position": { "x": 5.502291202545166, "y": -8.6488676071167, "z": 4 },
+						"scale": { "x": 1.0000000000000004, "y": 1.0000000000000004, "z": 1 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Murder MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Meeting Alexa"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Murder MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Meeting Alexa" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "83eef0be-2de3-4b71-b632-ef76abc7e279"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "83eef0be-2de3-4b71-b632-ef76abc7e279" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
 					"GiveOutfit": ["74ffb06ac31daff0"],
 					"KillUnnoticed": ["8c511fb5768f11ec"],
 					"SetTrue": ["db98b9dca3c88988", "eab954a4f18fa56a"],
-					"Snap": [
-						"6fecc020761f909d",
-						"8436fe9779c1289b",
-						"786257654af22831"
-					]
+					"Snap": ["6fecc020761f909d", "8436fe9779c1289b", "786257654af22831"]
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"7bc702db19785f58": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Emmas alibi checked",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -1967,50 +1388,28 @@
 			}
 		},
 		"b4fef6f05251393b": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug PI in mansion",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": {
-							"x": 11.998849868774414,
-							"y": 31.26511001586914,
-							"z": 4.000001907348633
-						}
+						"rotation": { "x": 0, "y": 0, "z": 90.00000000000001 },
+						"position": { "x": 11.998849868774414, "y": 31.26511001586914, "z": 4.000001907348633 },
+						"scale": { "x": 1.0000000000000004, "y": 1.0000000000000004, "z": 1 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Murder MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Investigator in mansion"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Murder MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Investigator in mansion" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "4b67db2b-c067-4490-96bf-df779ef8d5c9"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sId": { "type": "ZGuid", "value": "4b67db2b-c067-4490-96bf-df779ef8d5c9" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
@@ -2024,12 +1423,7 @@
 					],
 					"Signal": ["8cc5d2003b838444"],
 					"Snap": ["d7318eb73ba26a69"],
-					"In": [
-						{
-							"ref": "be34ec8f7bdb306e",
-							"value": { "type": "bool", "value": true }
-						}
-					]
+					"In": [{ "ref": "be34ec8f7bdb306e", "value": { "type": "bool", "value": true } }]
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
@@ -2037,49 +1431,34 @@
 		"9193cd30593adac2": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Secret Room 2",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 22.968950271606445,
-							"y": 38.6156005859375,
-							"z": 6.410652160644531
-						}
+						"position": { "x": 22.968950271606445, "y": 38.6156005859375, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 5.6269001960754395,
-						"y": 3.877190113067627,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 5.6269001960754395, "y": 3.877190113067627, "z": 8.936790466308594 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Secret Room 2"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Secret Room 2" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
-		"a79868492e5df5f": {
+		"0a79868492e5df5f": {
 			"parent": "9920fcfae291b133",
 			"name": "Debug buttons",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"f22688a3cbd06d78": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set undertaker noticed birds",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
@@ -2093,9 +1472,9 @@
 			}
 		},
 		"4f54159874833cb1": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set nests destroyed",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aValueEntities": {
@@ -2118,9 +1497,9 @@
 			}
 		},
 		"8cc5d2003b838444": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "MS guide",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
@@ -2134,17 +1513,14 @@
 			}
 		},
 		"6de6c5d84e7ea661": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap bodyguard to office 3",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0.5 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0.5 } }
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -2163,50 +1539,27 @@
 			}
 		},
 		"580f514fe2fcc31b": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug secondary loops",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -15.07291030883789,
-							"y": 22.63987922668457,
-							"z": 4.000000953674316
-						}
+						"position": { "x": -15.07291030883789, "y": 22.63987922668457, "z": 4.000000953674316 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug secondary loops"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From after family gathering"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug secondary loops" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From after family gathering" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "bde3ef87-a470-44e7-b2ed-2b8ebf8809c4"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_sId": { "type": "ZGuid", "value": "bde3ef87-a470-44e7-b2ed-2b8ebf8809c4" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"OnTriggered": {
@@ -2219,17 +1572,13 @@
 						"f9cc702d66121c45",
 						"f5c50857c0c6c91c",
 						"5c2fc3dc59fcfdb7",
-						"d06ba68470595f6",
+						"0d06ba68470595f6",
 						"5d03963b8c096fa3",
 						"226c1e5f46bb98f4",
 						"d89079523a4c7d7c"
 					],
 					"Signal": ["107624f1b891c6f8"],
-					"Snap": [
-						"310a89c416b9b997",
-						"11f017ec2f7a56d8",
-						"2d4f2b2b05cd95f2"
-					]
+					"Snap": ["310a89c416b9b997", "11f017ec2f7a56d8", "2d4f2b2b05cd95f2"]
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
@@ -2237,43 +1586,28 @@
 		"e588f70bace1e01a": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Spare Room",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 33.567989349365234,
-							"y": 23.386009216308594,
-							"z": 14.135589599609375
-						}
+						"position": { "x": 33.567989349365234, "y": 23.386009216308594, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 10.38640022277832,
-						"y": 12.593199729919434,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 10.38640022277832, "y": 12.593199729919434, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Spare Room"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"Moment_Description": { "type": "ZString", "value": "Spare Room" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"42df1c21eb9edc18": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Emmas evidence found",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aValueEntities": {
@@ -2296,9 +1630,9 @@
 			}
 		},
 		"98054009a47de9bd": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set buter investigator briefed",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -2313,62 +1647,45 @@
 		"fffffffffffffffe": {
 			"parent": null,
 			"name": "Scene",
-			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"9b889de4ad9e0f4b": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Safe Room",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 15.029060363769531,
-							"y": 36.65755844116211,
-							"z": 1.253061056137085
-						}
+						"position": { "x": 15.029060363769531, "y": 36.65755844116211, "z": 1.253061056137085 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 21.76409912109375,
-						"y": 20.04170036315918,
-						"z": 5.465849876403809
-					}
+					"value": { "x": 21.76409912109375, "y": 20.04170036315918, "z": 5.465849876403809 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Safe Room"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Safe Room" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"d03477232bd8b1e2": {
-			"parent": "ae62e2af746516d",
+			"parent": "0ae62e2af746516d",
 			"name": "Joint",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"310a89c416b9b997": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Alexa to living room 2",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 38.5, "z": 4 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 38.5, "z": 4 } }
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -2377,16 +1694,13 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"db98b9dca3c88988": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Make Alexa think the Investigator is arriving",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -2399,9 +1713,9 @@
 			}
 		},
 		"3ad8bf00d9314c4f": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Alexa meeting undertaker",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -2414,49 +1728,27 @@
 			}
 		},
 		"7b0bd952e5f72630": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug family gathering",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": -2.2596940994262695,
-							"y": 36.4999885559082,
-							"z": 4.000002861022949
-						}
+						"position": { "x": -2.2596940994262695, "y": 36.4999885559082, "z": 4.000002861022949 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug family gathering"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Alexa timing out"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug family gathering" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Alexa timing out" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "813d02a8-1144-46ed-9b79-93401a1cd61b"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_sId": { "type": "ZGuid", "value": "813d02a8-1144-46ed-9b79-93401a1cd61b" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"events": {
 				"OnTriggered": {
@@ -2469,11 +1761,7 @@
 						"f9cc702d66121c45",
 						"f5c50857c0c6c91c"
 					],
-					"Snap": [
-						"c5a6e0a2b9c78673",
-						"153a8d70f80d8e0",
-						"2d4f2b2b05cd95f2"
-					],
+					"Snap": ["c5a6e0a2b9c78673", "0153a8d70f80d8e0", "2d4f2b2b05cd95f2"],
 					"Signal": ["107624f1b891c6f8"]
 				}
 			},
@@ -2482,39 +1770,28 @@
 		"99e177988cc90288": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Bedroom",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -27.76491928100586,
-							"y": 46.97829055786133,
-							"z": 14.135589599609375
-						}
+						"position": { "x": -27.76491928100586, "y": 46.97829055786133, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 14.02810001373291,
-						"y": 22.85540008544922,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 14.02810001373291, "y": 22.85540008544922, "z": 7.298590183258057 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Bedroom" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"86f1d261fd36806f": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Butlers evidence found",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rValueEntity": {
@@ -2527,21 +1804,16 @@
 			}
 		},
 		"19c2faf818044b76": {
-			"parent": "ae62e2af746516d",
+			"parent": "0ae62e2af746516d",
 			"name": "Keyword_QUESTITEM_COLORADO_JOINT",
-			"template": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_colorado_joint.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_colorado_joint.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_colorado_joint.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["d03477232bd8b1e2"]
-				}
-			}
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["d03477232bd8b1e2"] } }
 		},
-		"d06ba68470595f6": {
-			"parent": "a79868492e5df5f",
+		"0d06ba68470595f6": {
+			"parent": "0a79868492e5df5f",
 			"name": "Set Edwards family gathering done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -2556,42 +1828,28 @@
 		"1d175169748967e6": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Secret Room to Zacharys Room",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 22.571300506591797,
-							"y": 45.671180725097656,
-							"z": 14.135589599609375
-						}
+						"position": { "x": 22.571300506591797, "y": 45.671180725097656, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 4.531779766082764,
-						"y": 18.077299118041992,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 4.531779766082764, "y": 18.077299118041992, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Secret Room to Zacharys Room"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Secret Room to Zacharys Room" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"fe0d5cc40f200700": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug clear Zacharys room",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aValueEntities": {
@@ -2606,7 +1864,7 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 						},
 						{
-							"ref": "42c81e9a750b01c",
+							"ref": "042c81e9a750b01c",
 							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 						},
 						{
@@ -2622,20 +1880,16 @@
 			}
 		},
 		"943f781156869d2f": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Emma to greenhouse entrance",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0,
-							"y": 126,
-							"z": 0.4000000059604645
-						}
+						"position": { "x": 0, "y": 126, "z": 0.4000000059604645 }
 					}
 				},
 				"m_rActorProvider": {
@@ -2645,49 +1899,35 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"events": { "OnSnap": { "In": ["aecdc41567f5a7f0"] } }
 		},
 		"bbc383a4b57fd042": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Pantry",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 22.97355079650879,
-							"y": 9.36148452758789,
-							"z": 6.410652160644531
-						}
+						"position": { "x": 22.97355079650879, "y": 9.36148452758789, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 9.101420402526855,
-						"y": 16.834199905395508,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 9.101420402526855, "y": 16.834199905395508, "z": 8.936790466308594 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Pantry" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"48e41934cce614b8": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set guards investigator reported",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -2700,20 +1940,16 @@
 			}
 		},
 		"8436fe9779c1289b": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap bodyguard to foyer",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 36.88852015596028 },
-						"position": {
-							"x": 1.0027070045471191,
-							"y": 14.82999038696289,
-							"z": 4.000002861022949
-						}
+						"position": { "x": 1.0027070045471191, "y": 14.82999038696289, "z": 4.000002861022949 }
 					}
 				},
 				"m_rActorProvider": {
@@ -2723,51 +1959,34 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"a76eb8f3a7737ea9": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Secret Room 1",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -13.154800415039063,
-							"y": 26.187850952148438,
-							"z": 6.410652160644531
-						}
+						"position": { "x": -13.154800415039063, "y": 26.187850952148438, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 3.579090118408203,
-						"y": 8.072549819946289,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 3.579090118408203, "y": 8.072549819946289, "z": 8.936790466308594 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Secret Room 1"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Secret Room 1" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"107624f1b891c6f8": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Investigator arrival done",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
@@ -2781,17 +2000,14 @@
 			}
 		},
 		"a09081c809cd96be": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap Alexa to office 3",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": { "x": 0, "y": 56, "z": 18 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": -180 }, "position": { "x": 0, "y": 56, "z": 18 } }
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -2800,52 +2016,34 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"fb93752eaf83e759": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Garden",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -0.4049126469768583
-						},
-						"position": {
-							"x": 4.526017189025879,
-							"y": 96.46869659423828,
-							"z": 7.431543827056885
-						}
+						"rotation": { "x": 0, "y": 0, "z": -0.4049126469768583 },
+						"position": { "x": 4.526017189025879, "y": 96.46869659423828, "z": 7.431543827056885 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 105.9219970703125,
-						"y": 67.55220031738281,
-						"z": 19.357799530029297
-					}
+					"value": { "x": 105.9219970703125, "y": 67.55220031738281, "z": 19.357799530029297 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Garden" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"e6cdf7cd17bc096c": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Burial guide tracked",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
@@ -2861,271 +2059,168 @@
 		"f21a4390639cad04": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Alexas Bedroom",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.21871399879455566,
-							"y": 5.079773902893066,
-							"z": 25.15736961364746
-						}
+						"position": { "x": -0.21871399879455566, "y": 5.079773902893066, "z": 25.15736961364746 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 20.413299560546875,
-						"y": 18.345600128173828,
-						"z": 15.026399612426758
-					}
+					"value": { "x": 20.413299560546875, "y": 18.345600128173828, "z": 15.026399612426758 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Alexas Bedroom"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Alexas Bedroom" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"d5148b6196660b14": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Observetory",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -13.126513793910814
-						},
-						"position": {
-							"x": 89.12654876708984,
-							"y": 126.79409790039063,
-							"z": 16.448490142822266
-						}
+						"rotation": { "x": 0, "y": 0, "z": -13.126513793910814 },
+						"position": { "x": 89.12654876708984, "y": 126.79409790039063, "z": 16.448490142822266 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 45.10879898071289,
-						"y": 28.3218994140625,
-						"z": 15.996700286865234
-					}
+					"value": { "x": 45.10879898071289, "y": 28.3218994140625, "z": 15.996700286865234 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Observetory"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Observetory" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"b03e2726202ae2bf": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug Burial MS NPC",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -119.77159881591797,
-							"y": 46.42781066894531,
-							"z": 0.2208690047264099
-						}
+						"position": { "x": -119.77159881591797, "y": 46.42781066894531, "z": 0.2208690047264099 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Burial MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From NPC having summoned Alexa"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Burial MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From NPC having summoned Alexa" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "101d55f0-4d29-45ef-a701-a68fe79f6dc9"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_sId": { "type": "ZGuid", "value": "101d55f0-4d29-45ef-a701-a68fe79f6dc9" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"events": {
 				"OnTriggered": {
-					"SetTrue": [
-						"4f54159874833cb1",
-						"3ad8bf00d9314c4f",
-						"ede09e79989a3740"
-					],
+					"SetTrue": ["4f54159874833cb1", "3ad8bf00d9314c4f", "ede09e79989a3740"],
 					"Signal": ["35d8453048e3a8a2", "90458e02410bfab1"],
-					"In": [
-						"a326a8408e21c72d",
-						{
-							"ref": "8ee6ab4e0a051ed1",
-							"value": { "type": "bool", "value": true }
-						}
-					]
+					"In": ["a326a8408e21c72d", { "ref": "8ee6ab4e0a051ed1", "value": { "type": "bool", "value": true } }]
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"786257654af22831": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap butler to foyer",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.1353429555892944,
-							"y": 14.942959785461426,
-							"z": 4.000002861022949
-						}
+						"position": { "x": -1.1353429555892944, "y": 14.942959785461426, "z": 4.000002861022949 }
 					}
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "31d7b88f0c24755",
+						"ref": "031d7b88f0c24755",
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"2d95577ccfab256d": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "B1 Toilet",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 17.997129440307617,
-							"y": 58.33042907714844,
-							"z": 1.253061056137085
-						}
+						"position": { "x": 17.997129440307617, "y": 58.33042907714844, "z": 1.253061056137085 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 5.48130989074707,
-						"y": 8.008959770202637,
-						"z": 5.465849876403809
-					}
+					"value": { "x": 5.48130989074707, "y": 8.008959770202637, "z": 5.465849876403809 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Toilet" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"12466457e3b3b6e4": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Kitchen",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 32.96786117553711,
-							"y": 20.34602928161621,
-							"z": 6.410652160644531
-						}
+						"position": { "x": 32.96786117553711, "y": 20.34602928161621, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 11.746199607849121,
-						"y": 19.02239990234375,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 11.746199607849121, "y": 19.02239990234375, "z": 8.936790466308594 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Kitchen" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"65ff4b05da2368a0": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Trophy Room",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -27.596799850463867,
-							"y": 45.86457061767578,
-							"z": 6.410652160644531
-						}
+						"position": { "x": -27.596799850463867, "y": 45.86457061767578, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 27.625499725341797,
-						"y": 17.999300003051758,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 27.625499725341797, "y": 17.999300003051758, "z": 8.936790466308594 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Library" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"b54542923a105f55": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "MS guide 2",
-			"template": "[modules:/zinputsignalentity.class].pc_entitytype",
+			"factory": "[modules:/zinputsignalentity.class].pc_entitytype",
 			"blueprint": "[modules:/zinputsignalentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rEntity": {
@@ -3138,86 +2233,57 @@
 				"m_sPinName": { "type": "ZString", "value": "SetTracked" }
 			}
 		},
-		"7dcc5011d6b12d9": {
+		"07dcc5011d6b12d9": {
 			"parent": "fffffffffffffffe",
 			"name": "Dev_Bulldog",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"56d2880e46efe239": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap butler to stair",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 10.366100311279297,
-							"y": 33.49378967285156,
-							"z": 11
-						}
+						"position": { "x": 10.366100311279297, "y": 33.49378967285156, "z": 11 }
 					}
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "31d7b88f0c24755",
+						"ref": "031d7b88f0c24755",
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
-		"7e4ab701e38f876": {
-			"parent": "a79868492e5df5f",
+		"07e4ab701e38f876": {
+			"parent": "0a79868492e5df5f",
 			"name": "Debug suspects",
-			"template": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_button_old.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -180 },
-						"position": {
-							"x": 2.2565360069274902,
-							"y": 36.4999885559082,
-							"z": 4.000002861022949
-						}
+						"position": { "x": 2.2565360069274902, "y": 36.4999885559082, "z": 4.000002861022949 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Debug Murder MS"
-				},
-				"ONm_sPromptDescriptionText": {
-					"type": "ZString",
-					"value": "From Suspects"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Debug Murder MS" },
+				"ONm_sPromptDescriptionText": { "type": "ZString", "value": "From Suspects" },
 				"m_bIsIllegal": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": true },
 				"m_bIsToggleAction": { "type": "bool", "value": false },
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "3e47cbc0-710b-473c-be22-1066a82da29a"
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_sId": { "type": "ZGuid", "value": "3e47cbc0-710b-473c-be22-1066a82da29a" },
+				"m_rPromptTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"events": {
 				"OnTriggered": {
@@ -3229,9 +2295,9 @@
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"8d5d8e860bf464c9": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug Murder MS from accusation",
-			"template": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
+			"factory": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out": {
@@ -3242,40 +2308,27 @@
 						"42df1c21eb9edc18",
 						"ed4211eaf862cc2d",
 						"86f1d261fd36806f",
-						"b76bf1d8cc3ef4a",
+						"0b76bf1d8cc3ef4a",
 						"dc344da721b3011b",
-						"5c4da0b1800f26f"
+						"05c4da0b1800f26f"
 					],
-					"Snap": [
-						"8d71478ffe2c1352",
-						"9b22aac11a3819eb",
-						"56d2880e46efe239"
-					],
+					"Snap": ["8d71478ffe2c1352", "9b22aac11a3819eb", "56d2880e46efe239"],
 					"Signal": ["8cc5d2003b838444"],
-					"In": [
-						{
-							"ref": "be34ec8f7bdb306e",
-							"value": { "type": "bool", "value": true }
-						}
-					]
+					"In": [{ "ref": "be34ec8f7bdb306e", "value": { "type": "bool", "value": true } }]
 				}
 			}
 		},
-		"153a8d70f80d8e0": {
-			"parent": "a79868492e5df5f",
+		"0153a8d70f80d8e0": {
+			"parent": "0a79868492e5df5f",
 			"name": "Snap bodyguard to living room",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -135 },
-						"position": {
-							"x": 8.826425552368164,
-							"y": 46.47298049926758,
-							"z": 4.000002861022949
-						}
+						"position": { "x": 8.826425552368164, "y": 46.47298049926758, "z": 4.000002861022949 }
 					}
 				},
 				"m_rActorProvider": {
@@ -3285,61 +2338,42 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"1bd15092c7e39963": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Alexa Office",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.002945000072941184,
-							"y": 47.65559005737305,
-							"z": 25.15736961364746
-						}
+						"position": { "x": 0.002945000072941184, "y": 47.65559005737305, "z": 25.15736961364746 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 26.20840072631836,
-						"y": 32.12730026245117,
-						"z": 15.026399612426758
-					}
+					"value": { "x": 26.20840072631836, "y": 32.12730026245117, "z": 15.026399612426758 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Alexa Office"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Alexa Office" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"dd4e3ce6b5fb2824": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set undertaker meeting Alexa delayed",
-			"template": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Delay time (ms)": { "type": "int32", "value": 33 }
-			},
+			"properties": { "Delay time (ms)": { "type": "int32", "value": 33 } },
 			"events": { "Out": { "SetTrue": ["f457a9077f9f5e2d"] } }
 		},
 		"eab954a4f18fa56a": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Make butler think the Investigator is arriving",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -3352,9 +2386,9 @@
 			}
 		},
 		"4a36a37f4bc3d764": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Alexa",
-			"template": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_rActor": {
@@ -3369,73 +2403,48 @@
 		"eac36141f3bf428b": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Graveyard",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -127.19960021972656,
-							"y": 20.293989181518555,
-							"z": 7.431543827056885
-						}
+						"position": { "x": -127.19960021972656, "y": 20.293989181518555, "z": 7.431543827056885 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 45.26020050048828,
-						"y": 60.06420135498047,
-						"z": 19.357799530029297
-					}
+					"value": { "x": 45.26020050048828, "y": 60.06420135498047, "z": 19.357799530029297 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Graveyard"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Graveyard" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
-		"8538d543c9a2ae6": {
+		"08538d543c9a2ae6": {
 			"parent": "76e88c6a6b335a84",
 			"name": "F0",
-			"template": "[modules:/zeditorfocusentity.class].pc_entitytype",
+			"factory": "[modules:/zeditorfocusentity.class].pc_entitytype",
 			"blueprint": "[modules:/zeditorfocusentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 1.9896739721298218,
-							"y": 10.641240119934082,
-							"z": 3.074345111846924
-						}
+						"position": { "x": 1.9896739721298218, "y": 10.641240119934082, "z": 3.074345111846924 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 342.49200439453125,
-						"y": 337.010986328125,
-						"z": 9.348270416259766
-					}
+					"value": { "x": 342.49200439453125, "y": 337.010986328125, "z": 9.348270416259766 }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"78f145ffe1f8457f": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Emma thinks family gathering is done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -3448,27 +2457,22 @@
 			}
 		},
 		"29bcae09aae06d34": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Debug Murder MS from Zacharys room",
-			"template": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
+			"factory": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out": {
 					"SetTrue": ["cb07b9c5bdff9300", "98054009a47de9bd"],
 					"Signal": ["8cc5d2003b838444"],
-					"In": [
-						{
-							"ref": "be34ec8f7bdb306e",
-							"value": { "type": "bool", "value": true }
-						}
-					]
+					"In": [{ "ref": "be34ec8f7bdb306e", "value": { "type": "bool", "value": true } }]
 				}
 			}
 		},
 		"dc344da721b3011b": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set suicide evidence found",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aValueEntities": {
@@ -3483,7 +2487,7 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 						},
 						{
-							"ref": "42c81e9a750b01c",
+							"ref": "042c81e9a750b01c",
 							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 						},
 						{
@@ -3495,9 +2499,9 @@
 			}
 		},
 		"cb07b9c5bdff9300": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set investigator briefed",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -3510,9 +2514,9 @@
 			}
 		},
 		"5c2fc3dc59fcfdb7": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set family gathering done",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -3525,17 +2529,14 @@
 			}
 		},
 		"11f017ec2f7a56d8": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap bodyguard to living room 2",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 40.5, "z": 4 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 40.5, "z": 4 } }
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -3544,24 +2545,18 @@
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"9b22aac11a3819eb": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Snap bodyguard to office",
-			"template": "000E585B18175F8F",
+			"factory": "000E585B18175F8F",
 			"blueprint": "0043919D21965A15",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0.5 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0.5 } }
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -3573,7 +2568,7 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "80b67a3cceedf4d",
+						"ref": "080b67a3cceedf4d",
 						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 					}
 				}
@@ -3582,60 +2577,41 @@
 		"fce87c49c1546b97": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Alexas Bathroom",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 14.916540145874023,
-							"y": 11.860030174255371,
-							"z": 25.15736961364746
-						}
+						"position": { "x": 14.916540145874023, "y": 11.860030174255371, "z": 25.15736961364746 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 9.46675968170166,
-						"y": 22.052600860595703,
-						"z": 15.026399612426758
-					}
+					"value": { "x": 9.46675968170166, "y": 22.052600860595703, "z": 15.026399612426758 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Alexas Bedroom"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Alexas Bedroom" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"9920fcfae291b133": {
-			"parent": "7dcc5011d6b12d9",
+			"parent": "07dcc5011d6b12d9",
 			"name": "Debug",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"105173287a4388fc": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Undertaker outfit",
-			"template": "[modules:/zherooutfitmodifier.class].pc_entitytype",
+			"factory": "[modules:/zherooutfitmodifier.class].pc_entitytype",
 			"blueprint": "[modules:/zherooutfitmodifier.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "dc3c386d-52c2-4e17-855d-6c15e080ccf3"
-				}
-			}
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "dc3c386d-52c2-4e17-855d-6c15e080ccf3" } }
 		},
 		"e8089211048b6240": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set Alexa investigator snooping",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -3650,149 +2626,102 @@
 		"5946462f7a3c2094": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Dinner",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 32.40911102294922,
-							"y": 47.383460998535156,
-							"z": 6.410652160644531
-						}
+						"position": { "x": 32.40911102294922, "y": 47.383460998535156, "z": 6.410652160644531 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 24.185100555419922,
-						"y": 20.58449935913086,
-						"z": 8.936790466308594
-					}
+					"value": { "x": 24.185100555419922, "y": 20.58449935913086, "z": 8.936790466308594 }
 				},
 				"Moment_Description": { "type": "ZString", "value": "Dinner" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"22f53805e144d9b1": {
 			"parent": "9920fcfae291b133",
 			"name": "Photo MS debug",
-			"template": "[modules:/zentity.class].pc_entitytype",
+			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"15e92db01cfb5798": {
 			"parent": "55eb9ab9ea12eebb",
 			"name": "Bedroom 2",
-			"template": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/hud/debug_ld_area_description.template?/debug_ld_area_description.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 26.380159378051758,
-							"y": 7.711734771728516,
-							"z": 14.135589599609375
-						}
+						"position": { "x": 26.380159378051758, "y": 7.711734771728516, "z": 14.135589599609375 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 15.207500457763672,
-						"y": 11.986200332641602,
-						"z": 7.298590183258057
-					}
+					"value": { "x": 15.207500457763672, "y": 11.986200332641602, "z": 7.298590183258057 }
 				},
-				"Moment_Description": {
-					"type": "ZString",
-					"value": "Bedroom 2"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"Moment_Description": { "type": "ZString", "value": "Bedroom 2" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"d910e67f2a552195": {
 			"parent": "76e88c6a6b335a84",
 			"name": "F1",
-			"template": "[modules:/zeditorfocusentity.class].pc_entitytype",
+			"factory": "[modules:/zeditorfocusentity.class].pc_entitytype",
 			"blueprint": "[modules:/zeditorfocusentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.8849939703941345,
-							"y": 25.62105941772461,
-							"z": 13.367030143737793
-						}
+						"position": { "x": 0.8849939703941345, "y": 25.62105941772461, "z": 13.367030143737793 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 110.4530029296875,
-						"y": 102.39399719238281,
-						"z": 6.5869598388671875
-					}
+					"value": { "x": 110.4530029296875, "y": 102.39399719238281, "z": 6.5869598388671875 }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"be34ec8f7bdb306e": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set guide tracked",
-			"template": "[modules:/zsignalgateentity_bool.class].pc_entitytype",
+			"factory": "[modules:/zsignalgateentity_bool.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalgateentity_bool.class].pc_entityblueprint",
 			"events": { "Out": { "SignalData": ["b54542923a105f55"] } }
 		},
 		"42641200c6f6a4d8": {
 			"parent": "76e88c6a6b335a84",
 			"name": "F2",
-			"template": "[modules:/zeditorfocusentity.class].pc_entitytype",
+			"factory": "[modules:/zeditorfocusentity.class].pc_entitytype",
 			"blueprint": "[modules:/zeditorfocusentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 1.7057830095291138,
-							"y": 29.45155906677246,
-							"z": 20.692630767822266
-						}
+						"position": { "x": 1.7057830095291138, "y": 29.45155906677246, "z": 20.692630767822266 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 103.88700103759766,
-						"y": 99.11009979248047,
-						"z": 6.641409873962402
-					}
+					"value": { "x": 103.88700103759766, "y": 99.11009979248047, "z": 6.641409873962402 }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"f457a9077f9f5e2d": {
-			"parent": "a79868492e5df5f",
+			"parent": "0a79868492e5df5f",
 			"name": "Set undetaker waiting for Alexa",
-			"template": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rState": {
@@ -3824,10 +2753,7 @@
 						"8e56b0d56b602791"
 					]
 				},
-				"m_eEvaluation": {
-					"type": "ZValueBool_Operation_Signal.EEvaluationType",
-					"value": "ANY"
-				}
+				"m_eEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" }
 			}
 		}
 	],
@@ -3839,7 +2765,7 @@
 		"[assembly:/_pro/scenes/missions/ancestral/mission_bulldog.brick].pc_entitytype"
 	],
 	"subType": "brick",
-	"quickEntityVersion": 3,
+	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []
